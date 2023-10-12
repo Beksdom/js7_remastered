@@ -1,0 +1,63 @@
+*{
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    height: 1000vh;
+    transition: all 500ms;
+}
+
+.colors {
+    border: 1px solid rgb(0, 0, 0);
+    height: 90px;
+    display: flex;
+    
+}
+
+.color {    
+    border: 1px solid rgb(0, 0, 0);
+    height: 50px;
+    width: 50px;
+}
+
+.red {
+    background: red;
+}
+.blue {
+    background: blue;
+}
+.purple {
+    background: purple;
+}
+.pink {
+    background: pink;
+}
+.orange {
+    background: orange;
+}
+.green {
+    background: green;
+}
+.yellow {
+    background: #ffff00;
+}
+.brown {
+    background: brown;
+}
+.black {
+    background: #000000;
+}
+.remove {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+  /* ______
+    /      \
+   |   ☐☐  |
+   |_🚪_____| ←это домик */
